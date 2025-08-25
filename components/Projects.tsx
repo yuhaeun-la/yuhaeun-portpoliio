@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       title: 'H-Room',
-      description: '멘토와 멘티가 함께 성장하는 혁신적인 관계 관리 플랫폼입니다. 게이미피케이션을 통해 할 일을 완수하고 포인트를 획득하여 상점에서 원하는 것을 구매할 수 있는 동기부여 시스템을 제공합니다.',
+      description: '멘토와 멘티가 함께 쓸 수 있는 앱 플랫폼 입니다. 게이미피케이션을 통해 할 일을 완수하고 포인트를 획득하여 상점에서 원하는 것을 구매할 수 있는 동기부여 시스템을 제공합니다.',
       image: '/api/placeholder/600/400',
       technologies: ['Flutter', 'Dart', 'Riverpod', 'Supabase', 'Clean Architecture', 'Provider Pattern', 'Custom Animations'],
       liveUrl: '',
@@ -51,7 +51,7 @@ const Projects = () => {
         '커스텀 차트 및 진척도 시각화',
         '반응형 디자인'
       ],
-      period: '개발 완료',
+      period: '2025.08.01 ~ 2025.08.25',
       role: 'Flutter 풀스택 개발, UI/UX 디자인, 아키텍처 설계',
       architecture: 'Clean Architecture, Repository Pattern, Riverpod 상태관리',
       stats: {
