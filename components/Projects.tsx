@@ -55,6 +55,8 @@ const Projects = () => {
       role: 'Flutter 풀스택 개발, UI/UX 디자인, 아키텍처 설계',
       architecture: 'Clean Architecture, Repository Pattern, Riverpod 상태관리',
       stats: {
+        development: '2주' ,
+        status: '개발완료, 출시준비중'
       },
       highlights: [
         '복잡한 상태 관리 및 Provider 생명주기 최적화',
