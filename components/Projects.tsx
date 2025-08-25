@@ -41,7 +41,7 @@ const Projects = () => {
       image: '/api/placeholder/600/400',
       technologies: ['Flutter', 'Dart', 'Riverpod', 'Supabase', 'Clean Architecture', 'Provider Pattern', 'Custom Animations'],
       liveUrl: '',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/yuhaeun-la/hroom',
       features: [
         '멘토-멘티 매칭 시스템',
         '게이미피케이션 기반 포인트 시스템',
@@ -137,7 +137,7 @@ const Projects = () => {
                       <Eye size={20} className="text-gray-800" />
                     </a>
                   )}
-                  {project.githubUrl !== '#' && (
+                  {project.githubUrl && project.githubUrl !== '#' && (
                     <a
                       href={project.githubUrl}
                       target="_blank"
