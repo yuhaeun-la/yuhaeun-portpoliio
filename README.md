@@ -18,41 +18,6 @@
 - 📧 연락처 폼 기능
 
 
-### 1. 개인 정보 수정
-
-각 컴포넌트에서 개인 정보를 수정하세요:
-
-- `components/Hero.tsx`: 메인 소개 문구
-- `components/About.tsx`: 자기소개 내용
-- `components/Skills.tsx`: 기술 스택 정보
-- `components/Experience.tsx`: 경력 사항
-- `components/Projects.tsx`: 프로젝트 정보
-- `components/Education.tsx`: 학력 및 자격증
-- `components/Contact.tsx`: 연락처 정보
-
-### 2. 색상 테마 변경
-
-`tailwind.config.js`에서 primary 색상을 변경할 수 있습니다:
-
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: {
-        // 원하는 색상으로 변경
-        500: '#your-color',
-        600: '#your-darker-color',
-        // ...
-      }
-    }
-  }
-}
-```
-
-### 3. 폰트 변경
-
-`app/globals.css`에서 Google Fonts를 변경하거나 추가할 수 있습니다.
-
 ## 📂 프로젝트 구조
 
 ```
